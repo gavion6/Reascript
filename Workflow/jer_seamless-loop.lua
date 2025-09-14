@@ -12,16 +12,6 @@ It is important to set auto crossfades in preferences to zero to work properly.
   + Initial Release
 --]]
 
---[[ --------------------------------------------------------------
-   Create a manual cross‑fade for a single selected media item
-   Steps:
-   1️ Verify exactly one item is selected
-   2️ Ask the user for the desired cross‑fade length (seconds)
-   3️ Split the item in half
-   4️  Shift the left part so the two halves overlap by that length
-   5️  Apply matching fade‑out / fade‑in envelopes
-   --------------------------------------------------------------]]
-
 -----------------------------------------------------------------
 -- 1️ Helper: ensure exactly one item is selected
 -----------------------------------------------------------------
