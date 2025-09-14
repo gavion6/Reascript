@@ -1,16 +1,15 @@
---[[
-Creates seamless loop from a selected item with user specified crossfade length. It does so by cutting the item in half, swapping the new two items and overlapping them.
+-- @description creates seamless loop from selected item
+-- @about
+-- 	#Create seamless loop from selected item
+-- 	Creates seamless loop from selected item with specified crossfade length.
+-- 	Make sure to set your auto crossfade to zero in preferences and to have enough space after the item, since it moves by half of the item forward (this might not be needed in the future).
+-- @version 0.2025-14-9
+-- @author jeravi
+-- @links https://github.com/gavion6/Reascript/blob/main/Workflow/jer_seamless-loop.lua
+-- @donation https://buymeacoffee.com/vitjerabek
+-- @changelog initial release
 
-It is important to set auto crossfades in preferences to zero to work properly.
 
-
---]]
- 
---[[
- * Changelog:
- * v1.0 (2025-9-14)
-  + Initial Release
---]]
 
 -----------------------------------------------------------------
 -- 1️ Helper: ensure exactly one item is selected
