@@ -1,15 +1,29 @@
+--[[
+Creates seamless loop from a selected item with user specified crossfade length. It does so by cutting the item in half, swapping the new two items and overlapping them.
+
+It is important to set auto crossfades in preferences to zero to work properly.
+
+
+--]]
+ 
+--[[
+ * Changelog:
+ * v1.0 (2025-9-14)
+  + Initial Release
+--]]
+
 --[[ --------------------------------------------------------------
    Create a manual cross‑fade for a single selected media item
    Steps:
-   1️⃣  Verify exactly one item is selected
-   2️⃣  Ask the user for the desired cross‑fade length (seconds)
-   3️⃣  Split the item in half
-   4️⃣  Shift the left part so the two halves overlap by that length
-   5️⃣  Apply matching fade‑out / fade‑in envelopes
+   1️ Verify exactly one item is selected
+   2️ Ask the user for the desired cross‑fade length (seconds)
+   3️ Split the item in half
+   4️  Shift the left part so the two halves overlap by that length
+   5️  Apply matching fade‑out / fade‑in envelopes
    --------------------------------------------------------------]]
 
 -----------------------------------------------------------------
--- 1️⃣  Helper: ensure exactly one item is selected
+-- 1️ Helper: ensure exactly one item is selected
 -----------------------------------------------------------------
 local function one_item_selected()
     local cnt = reaper.CountSelectedMediaItems(0)
@@ -25,7 +39,7 @@ local function one_item_selected()
 end
 
 -----------------------------------------------------------------
--- 2️⃣  Ask the user for the cross‑fade length (seconds)
+-- 2️  Ask the user for the cross‑fade length (seconds)
 -----------------------------------------------------------------
 local function get_cross_len()
     local retval, inp = reaper.GetUserInputs(
@@ -44,7 +58,7 @@ local function get_cross_len()
 end
 
 -----------------------------------------------------------------
--- 3️⃣  Core routine – split, shift, and apply fades
+-- 3️  Core routine – split, shift, and apply fades
 -----------------------------------------------------------------
 local function create_crossfade(cross_len)
     reaper.Undo_BeginBlock()
