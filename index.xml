@@ -1,2 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="jer_reascript"/>
+<index version="1" name="jer_reascript" commit="237f1264b3cec57ef3ac0032ab33622953b2b296">
+  <category name="Workflow">
+    <reapack name="jer_seamless-loop.lua" type="script" desc="creates seamless loop from selected item">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 #Create seamless loop from selected item Creates seamless loop from selected item with specified crossfade length. Make sure to set your auto crossfade to zero in preferences and to have enough space after the item, since it moves by half of the item forward (this might not be needed in the future).\par}
+}
+]]></description>
+        <link rel="website">https://github.com/gavion6/Reascript/blob/main/Workflow/jer_seamless-loop.lua</link>
+        <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
+      </metadata>
+      <version name="0.2025-14-9" author="jeravi" time="2025-09-14T23:04:05Z">
+        <changelog><![CDATA[initial release]]></changelog>
+        <source main="main">https://github.com/gavion6/Reascript/raw/237f1264b3cec57ef3ac0032ab33622953b2b296/Workflow/jer_seamless-loop.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
