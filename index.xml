@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="jer_reascript" commit="237f1264b3cec57ef3ac0032ab33622953b2b296">
+<index version="1" name="jer_reascript" commit="6065a77a92efa55fa30084c4839e704dd23a302a">
   <category name="Workflow">
+    <reapack name="jer_gameaudio-workflow-regions-from-items.lua" type="script" desc="Creates empty items and regions from selected items blocks. The parent track is set in region render matrix. If you have more folders inside the main parent track, it is recommended to select the main parent track before running the script.">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 #Regions from item blocks with region render matrix set\par}
+}
+]]></description>
+        <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
+      </metadata>
+      <version name="0.2025-25-9" author="jeravi" time="2025-09-25T19:18:29Z">
+        <changelog><![CDATA[initial release]]></changelog>
+        <source main="main">https://github.com/gavion6/Reascript/raw/6065a77a92efa55fa30084c4839e704dd23a302a/Workflow/jer_gameaudio-workflow-regions-from-items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="jer_insert-silence-random.lua" type="script" desc="Insert silence between items with random length between min and max value">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 #Insert Silence With Random Length\par}
+}
+]]></description>
+        <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
+      </metadata>
+      <version name="0.2025-25-9" author="jeravi" time="2025-09-25T19:18:29Z">
+        <changelog><![CDATA[initial release]]></changelog>
+        <source main="main">https://github.com/gavion6/Reascript/raw/6065a77a92efa55fa30084c4839e704dd23a302a/Workflow/jer_insert-silence-random.lua</source>
+      </version>
+    </reapack>
+    <reapack name="jer_insert-silence.lua" type="script" desc="Insert silence between items, can be a negative value as well.">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 #Insert Silence\par}
+}
+]]></description>
+        <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
+      </metadata>
+      <version name="0.2025-25-9" author="jeravi" time="2025-09-25T19:18:29Z">
+        <changelog><![CDATA[initial release]]></changelog>
+        <source main="main">https://github.com/gavion6/Reascript/raw/6065a77a92efa55fa30084c4839e704dd23a302a/Workflow/jer_insert-silence.lua</source>
+      </version>
+    </reapack>
     <reapack name="jer_seamless-loop.lua" type="script" desc="creates seamless loop from selected item">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
