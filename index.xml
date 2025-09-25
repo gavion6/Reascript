@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="jer_reascript" commit="6065a77a92efa55fa30084c4839e704dd23a302a">
+<index version="1" name="Workflow" commit="6065a77a92efa55fa30084c4839e704dd23a302a">
   <category name="Workflow">
     <reapack name="jer_gameaudio-workflow-regions-from-items.lua" type="script" desc="Creates empty items and regions from selected items blocks. The parent track is set in region render matrix. If you have more folders inside the main parent track, it is recommended to select the main parent track before running the script.">
       <metadata>
