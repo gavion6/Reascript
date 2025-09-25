@@ -1,3 +1,13 @@
+-- @description Insert silence between items with random length between min and max value
+-- @about
+-- 	#Insert Silence With Random Length
+-- @version 0.2025-25-9
+-- @author jeravi
+-- @links 
+-- @donation https://buymeacoffee.com/vitjerabek
+-- @changelog initial release
+
+
 -- Insert Silence Between Selected Items in REAPER with Randomization
 
 -- Function to create the GUI
