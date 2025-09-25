@@ -1,4 +1,11 @@
---dependencies: x-raym
+-- @description Creates empty items and regions from selected items blocks. The parent track is set in region render matrix. If you have more folders inside the main parent track, it is recommended to select the main parent track before running the script.
+-- @about
+-- 	#Regions from item blocks with region render matrix set
+--  Dependencies are X-Rayms package
+-- @version 0.2025-25-9
+-- @author jeravi
+-- @donation https://buymeacoffee.com/vitjerabek
+-- @changelog initial release
 
 function createGUI() --ask for tail first
   local retval, user_input=reaper.GetUserInputs("Regions from selected item blocks, set render matrix to parent", 1, "Region tail (seconds):", "0")

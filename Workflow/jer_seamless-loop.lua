@@ -9,10 +9,8 @@
 -- @donation https://buymeacoffee.com/vitjerabek
 -- @changelog initial release
 
-
-
 -----------------------------------------------------------------
--- 1️ Helper: ensure exactly one item is selected
+-- 1 Helper: ensure exactly one item is selected
 -----------------------------------------------------------------
 local function one_item_selected()
     local cnt = reaper.CountSelectedMediaItems(0)
@@ -28,7 +26,7 @@ local function one_item_selected()
 end
 
 -----------------------------------------------------------------
--- 2️  Ask the user for the cross‑fade length (seconds)
+-- 2️ Ask the user for the cross‑fade length (seconds)
 -----------------------------------------------------------------
 local function get_cross_len()
     local retval, inp = reaper.GetUserInputs(
@@ -47,7 +45,7 @@ local function get_cross_len()
 end
 
 -----------------------------------------------------------------
--- 3️  Core routine – split, shift, and apply fades
+-- 3️ Core routine – split, shift, and apply fades
 -----------------------------------------------------------------
 local function create_crossfade(cross_len)
     reaper.Undo_BeginBlock()
@@ -116,10 +114,13 @@ end
 -- Execution flow
 -----------------------------------------------------------------
 if one_item_selected() then
+    reaper.Main_OnCommand(41196, 0) --disable auto fade
     local len = get_cross_len()
     if len then
         create_crossfade(len)
     else
         reaper.ShowMessageBox("No length supplied – script stopped.", "Info", 0)
     end
+    reaper.Main_OnCommand(41195, 0) --enable auto fade
 end
+
