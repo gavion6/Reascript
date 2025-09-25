@@ -1,8 +1,4 @@
--- @description creates seamless loop from selected item
--- @about
--- 	#Create seamless loop from selected item
--- 	Creates seamless loop from selected item with specified crossfade length.
--- 	Make sure to set your auto crossfade to zero in preferences and to have enough space after the item, since it moves by half of the item forward (this might not be needed in the future).
+-- @description Creates seamless loop from selected item with specified crossfade length. Make sure to have enough space after selected item, the loop wont stay in place of original item.
 -- @version 0.2025-14-9
 -- @author jeravi
 -- @links https://github.com/gavion6/Reascript/blob/main/Workflow/jer_seamless-loop.lua

@@ -1,6 +1,4 @@
 -- @description Insert silence between items with random length between min and max value
--- @about
--- 	#Insert Silence With Random Length
 -- @version 0.2025-25-9
 -- @author jeravi
 -- @donation https://buymeacoffee.com/vitjerabek

@@ -1,6 +1,4 @@
 -- @description Insert silence between items, can be a negative value as well.
--- @about
--- 	#Insert Silence
 -- @version 0.2025-25-9
 -- @author jeravi
 -- @donation https://buymeacoffee.com/vitjerabek
