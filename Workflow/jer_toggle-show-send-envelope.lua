@@ -45,13 +45,11 @@ local function loop()
         if env_visible=="0" then
           reaper.GetSetEnvelopeInfo_String(info.env, "VISIBLE", "1", true)
           reaper.TrackList_AdjustWindows(false)
-          reaper.ShowConsoleMsg("track was not visible")
         end
         
         if env_visible=="1" then
           reaper.GetSetEnvelopeInfo_String(info.env, "VISIBLE", "0", true)
           reaper.TrackList_AdjustWindows(false)
-          reaper.ShowConsoleMsg("track was visible")
         end
         
       end
