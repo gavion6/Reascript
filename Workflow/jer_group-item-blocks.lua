@@ -1,4 +1,9 @@
-  
+-- @description Group Items Blocks
+-- @about Groups selected items in blocks in child tracks by creating an empty item in the parent track. Makes use of X-Rayms free scripts.
+-- @version 0.2025-02-06
+-- @author jeravi
+-- @donation https://buymeacoffee.com/vitjerabek
+-- @changelog initial release 
 
 function main()
   

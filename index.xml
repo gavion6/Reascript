@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="jer scripts" commit="255fe6a41fadaf46290d8eb8152e5a413ba55f00">
+<index version="1" name="jer scripts" commit="6c1817e905280d3ea50eda43a76259f7bb03aeae">
   <category name="Workflow">
-    <reapack name="jer_gameaudio-workflow-regions-from-items.lua" type="script" desc="Creates empty items and regions from selected items blocks. The parent track is set in region render matrix. If you have more folders inside the main parent track, it is recommended to select the main parent track before running the script. Requires X-Rayms package.">
-      <metadata>
-        <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
-      </metadata>
-      <version name="0.2025-25-9" author="jeravi" time="2025-09-25T19:18:29Z">
-        <changelog><![CDATA[initial release]]></changelog>
-        <source main="main">https://github.com/gavion6/Reascript/raw/6065a77a92efa55fa30084c4839e704dd23a302a/Workflow/jer_gameaudio-workflow-regions-from-items.lua</source>
-      </version>
-    </reapack>
     <reapack name="jer_insert-silence-random.lua" type="script" desc="Insert silence between items with random length between min and max value">
       <metadata>
         <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
@@ -19,8 +10,15 @@
         <source main="main">https://github.com/gavion6/Reascript/raw/6065a77a92efa55fa30084c4839e704dd23a302a/Workflow/jer_insert-silence-random.lua</source>
       </version>
     </reapack>
-    <reapack name="jer_insert-silence.lua" type="script" desc="Insert silence between items, can be a negative value as well.">
+    <reapack name="jer_insert-silence.lua" type="script" desc="Insert Silence">
       <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Insert silence between items, can be a negative value as well.\par}
+}
+]]></description>
         <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
       </metadata>
       <version name="0.2025-25-9" author="jeravi" time="2025-09-25T19:18:29Z">
@@ -28,8 +26,47 @@
         <source main="main">https://github.com/gavion6/Reascript/raw/6065a77a92efa55fa30084c4839e704dd23a302a/Workflow/jer_insert-silence.lua</source>
       </version>
     </reapack>
-    <reapack name="jer_seamless-loop.lua" type="script" desc="Creates seamless loop from selected item with specified crossfade length. Make sure to have enough space after selected item, the loop wont stay in place of original item.">
+    <reapack name="jer_insertSilence-Groups-demo.lua" type="script" desc="Insert Silence Between Selected Item Groups (DEMO)">
       <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 If you select two or more item groups, you can automate how long silence is in between them. Intended to work with the script "Create regions from item blocks in parent track"\par}
+}
+]]></description>
+        <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
+      </metadata>
+      <version name="0.2026-02-06" author="jeravi" time="2026-02-06T15:55:24Z">
+        <changelog><![CDATA[Demo version. Sometimes works unexpectadely. But you can always undo.]]></changelog>
+        <source main="main">https://github.com/gavion6/Reascript/raw/6c1817e905280d3ea50eda43a76259f7bb03aeae/Workflow/jer_insertSilence-Groups-demo.lua</source>
+      </version>
+    </reapack>
+    <reapack name="jer_regions-from-items-blocks.lua" type="script" desc="Create regions from item blocks in parent track, set render matrix for parent">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Creates empty items and regions from selected items blocks. The parent track is set in region render matrix. If you have more folders inside the main parent track, it is recommended to select the main parent track before running the script. Requires X-Rayms package.\par}
+}
+]]></description>
+        <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
+      </metadata>
+      <version name="0.2025-25-9" author="jeravi" time="2026-02-06T15:55:24Z">
+        <changelog><![CDATA[initial release]]></changelog>
+        <source main="main">https://github.com/gavion6/Reascript/raw/6c1817e905280d3ea50eda43a76259f7bb03aeae/Workflow/jer_regions-from-items-blocks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="jer_seamless-loop.lua" type="script" desc="Seamless loop">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Creates seamless loop from selected item with specified crossfade length. Make sure to have enough space after selected item, the loop wont stay in place of original item.\par}
+}
+]]></description>
         <link rel="website">https://github.com/gavion6/Reascript/blob/main/Workflow/jer_seamless-loop.lua</link>
         <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
       </metadata>
@@ -38,8 +75,15 @@
         <source main="main">https://github.com/gavion6/Reascript/raw/237f1264b3cec57ef3ac0032ab33622953b2b296/Workflow/jer_seamless-loop.lua</source>
       </version>
     </reapack>
-    <reapack name="jer_toggle-show-send-envelope.lua" type="script" desc="In ReaImGUI window shows all sends for first selected track. By clicking the sends button, you can toggle view its volume envelope. If the envelope is not active it makes it active.">
+    <reapack name="jer_toggle-show-send-envelope.lua" type="script" desc="Toggle show send envelope">
       <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 \fmodern Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 In ReaImGUI window shows all sends for first selected track. By clicking the sends button, you can toggle view its volume envelope. If the envelope is not active it makes it active.\par}
+}
+]]></description>
         <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
       </metadata>
       <version name="0.2026-02-05" author="jeravi" time="2026-02-05T20:04:40Z">
