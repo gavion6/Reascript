@@ -1,4 +1,5 @@
--- @description In ReaImGUI window shows all sends for first selected track. By clicking the sends button, you can toggle view its volume envelope. If the envelope is not active it makes it active.
+-- @description Toggle show send envelope
+-- @about In ReaImGUI window shows all sends for first selected track. By clicking the sends button, you can toggle view its volume envelope. If the envelope is not active it makes it active.
 -- @version 0.2026-02-05
 -- @author jeravi
 -- @donation https://buymeacoffee.com/vitjerabek

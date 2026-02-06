@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="jer scripts" commit="31cdbf5f38ae26eaf414d3daa65ee523ed210ed0">
+<index version="1" name="jer scripts" commit="255fe6a41fadaf46290d8eb8152e5a413ba55f00">
   <category name="Workflow">
     <reapack name="jer_gameaudio-workflow-regions-from-items.lua" type="script" desc="Creates empty items and regions from selected items blocks. The parent track is set in region render matrix. If you have more folders inside the main parent track, it is recommended to select the main parent track before running the script. Requires X-Rayms package.">
       <metadata>
@@ -36,6 +36,15 @@
       <version name="0.2025-14-9" author="jeravi" time="2025-09-14T23:04:05Z">
         <changelog><![CDATA[initial release]]></changelog>
         <source main="main">https://github.com/gavion6/Reascript/raw/237f1264b3cec57ef3ac0032ab33622953b2b296/Workflow/jer_seamless-loop.lua</source>
+      </version>
+    </reapack>
+    <reapack name="jer_toggle-show-send-envelope.lua" type="script" desc="In ReaImGUI window shows all sends for first selected track. By clicking the sends button, you can toggle view its volume envelope. If the envelope is not active it makes it active.">
+      <metadata>
+        <link rel="donation">https://buymeacoffee.com/vitjerabek</link>
+      </metadata>
+      <version name="0.2026-02-05" author="jeravi" time="2026-02-05T20:04:40Z">
+        <changelog><![CDATA[initial release]]></changelog>
+        <source main="main">https://github.com/gavion6/Reascript/raw/b4162694442e053b89fe6676151cc7513040c16a/Workflow/jer_toggle-show-send-envelope.lua</source>
       </version>
     </reapack>
   </category>

@@ -1,4 +1,5 @@
--- @description Creates empty items and regions from selected items blocks. The parent track is set in region render matrix. If you have more folders inside the main parent track, it is recommended to select the main parent track before running the script. Requires X-Rayms package.
+-- @description Create regions from item blocks in parent track, set render matrix for parent
+-- @about Creates empty items and regions from selected items blocks. The parent track is set in region render matrix. If you have more folders inside the main parent track, it is recommended to select the main parent track before running the script. Requires X-Rayms package.
 -- @version 0.2025-25-9
 -- @author jeravi
 -- @donation https://buymeacoffee.com/vitjerabek
